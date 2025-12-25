@@ -21,7 +21,7 @@ This project is built with **modern full-stack technologies**, focusing on secur
 - **TypeScript**
 - **Tailwind CSS**
 - Component-based architecture
-- Dark / Light theme support
+- Dark theme
 - Fully responsive UI
 - Modern UI/UX design
 
