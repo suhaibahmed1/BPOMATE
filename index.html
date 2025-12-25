@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BPOMATE | Your Trusted Partner in Smart Outsourcing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              brand: {
+                900: '#0f172a', // Deep blue/slate
+                800: '#1e293b',
+                700: '#334155',
+                600: '#475569',
+                500: '#3b82f6', // Bright blue accent
+                400: '#60a5fa',
+                100: '#dbeafe',
+                50: '#eff6ff',
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <script>
+      // Force dark mode
+      document.documentElement.classList.add('dark');
+      localStorage.setItem('theme', 'dark');
+    </script>
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18.2.0",
+    "react/": "https://esm.sh/react@18.2.0/",
+    "react-dom": "https://esm.sh/react-dom@18.2.0",
+    "react-dom/": "https://esm.sh/react-dom@18.2.0/",
+    "react-router-dom": "https://esm.sh/react-router-dom@6.22.3?deps=react@18.2.0,react-dom@18.2.0",
+    "lucide-react": "https://esm.sh/lucide-react@0.344.0?deps=react@18.2.0",
+    "recharts": "https://esm.sh/recharts@2.12.2?deps=react@18.2.0,react-dom@18.2.0",
+    "helmet": "https://esm.sh/helmet@^8.1.0",
+    "morgan": "https://esm.sh/morgan@^1.10.1",
+    "dotenv": "https://esm.sh/dotenv@^17.2.3",
+    "cors": "https://esm.sh/cors@^2.8.5",
+    "jsonwebtoken": "https://esm.sh/jsonwebtoken@^9.0.3",
+    "zod": "https://esm.sh/zod@^4.1.13",
+    "mongoose": "https://esm.sh/mongoose@^9.0.1",
+    "express-rate-limit": "https://esm.sh/express-rate-limit@^8.2.1",
+    "express": "https://esm.sh/express@^5.2.1",
+    "bcryptjs": "https://esm.sh/bcryptjs@^3.0.3",
+    "express-mongo-sanitize": "https://esm.sh/express-mongo-sanitize@^2.2.0",
+    "hpp": "https://esm.sh/hpp@^0.2.3"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-slate-50 text-slate-800 antialiased dark:bg-slate-950 dark:text-slate-100 transition-colors duration-300">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
